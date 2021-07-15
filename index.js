@@ -38,7 +38,7 @@ client.on("ready", () => {
     getData()
     setInterval(() => {
         getData()
-    }, 30000);
+    }, 180000);
 })
 
 client.on("message", async message => {
