@@ -35,10 +35,10 @@ client.on("ready", () => {
     let nowtime = new Date()
     console.log(`[${nowtime.getHours()}:${nowtime.getMinutes()}:${nowtime.getSeconds()}][${nowtime.getFullYear() + "/" + (nowtime.getMonth() + 1) + "/" + nowtime.getDate()}] Bot Online`)
     client.channels.cache.get("865177293110509568").send(`[${nowtime.getHours()}:${nowtime.getMinutes()}:${nowtime.getSeconds()}][${nowtime.getFullYear() + "/" + (nowtime.getMonth() + 1) + "/" + nowtime.getDate()}] Bot Online`)
-    // getData()
-    // setInterval(() => {
-    //     getData()
-    // }, 30000);
+     getData()
+     setInterval(() => {
+         getData()
+     }, 30000);
 })
 
 client.on("message", async message => {
